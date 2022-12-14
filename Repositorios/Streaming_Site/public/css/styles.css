@@ -36,7 +36,7 @@ body{
 }
 
 .btn{
-    border: 1px solid #c9c9c9ff;
+    border: 1px solid #c9c9c9;
     border-radius: 2px;
     background: none;
     color: #c9c9c9;
@@ -96,9 +96,9 @@ body{
     display: flex;
 }
 
-/* .movie-container::-webkit-scrollbar{
-    display:none;
-} */
+.movie-container::-webkit-scrollbar{
+    display: none;
+}
 
 .movie-category::-webkit-scrollbar{
     display: none;

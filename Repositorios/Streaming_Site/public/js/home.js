@@ -17,7 +17,7 @@ const fetchMoviesListByGenres = (id, genres) =>{
     api_key: api_key,
     with_genres: id,
     page: Math.floor(Math.random() * 3) + 1
-    }))    
+    }))
     .then(res => res.json())
     .then(data => {
         makeCategoryElement(`${genres}_movies`, data.results)
